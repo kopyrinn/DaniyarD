@@ -455,14 +455,14 @@
         /* Video Section */
         .video-section {
             background: #0f0c08;
-            padding: 6rem 2rem;
+            padding: 2rem 0rem;
         }
 
         .video-container {
             max-width: 900px;
             margin: 0 auto;
             position: relative;
-            padding-bottom: 56.25%;
+            padding-bottom: 35%;  /*56.25%*/
             height: 0;
             overflow: hidden;
             opacity: 0;
@@ -683,6 +683,18 @@
                 width: 100%;
                 margin-top: 0.5rem;
             }
+
+            .video-container {
+                    max-width: 900px;
+                    margin: 0 auto;
+                    position: relative;
+                    padding-bottom: 56%;  /*56.25%*/
+                    height: 0;
+                    overflow: hidden;
+                    opacity: 0;
+                    transform: translateY(40px);
+                    transition: all 0.8s ease;
+                }
         }
     </style>
 </head>
