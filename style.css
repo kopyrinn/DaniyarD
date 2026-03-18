@@ -211,6 +211,7 @@ body::before {
     margin-bottom: 1rem;
 }
 
+
 .hero-name {
     font-family: 'Oswald', sans-serif;
     font-size: clamp(0.9rem, 2vw, 1.2rem);
@@ -265,6 +266,7 @@ body::before {
     font-size: clamp(0.95rem, 2vw, 1.05rem);
     color: var(--text-sand);
 }
+
 
 .hero-btn {
     display: inline-block;
@@ -412,6 +414,7 @@ section {
     color: var(--dark-bg);
 }
 
+
 /* Tour Dates Section */
 .tour-dates {
     background: var(--dark-bg);
@@ -440,6 +443,7 @@ section {
     margin-bottom: 2rem;
     font-size: 0.95rem;
 }
+
 
 .dates-list {
     max-width: 900px;
@@ -740,6 +744,7 @@ section {
 .bio-copy a:hover {
     color: var(--text-white);
 }
+
 
 /* Responsive */
 @media (max-width: 768px) {
